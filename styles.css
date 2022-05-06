@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+header,
+main,
+footer,
+.circle,
+.tent,
+.phone,
+.community,
+.footer-sign {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title,
+.header-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 8em;
+  padding-right: 8em;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+header {
+  align-items: center;
+}
+img {
+  width: 30%;
+}
+.circle {
+  width: 250px;
+  height: 250px;
+  background: green;
+  margin: 20px;
+  padding: 10px;
+  align-items: center;
+}
